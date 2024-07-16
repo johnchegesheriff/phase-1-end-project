@@ -4,21 +4,21 @@
         "id": 1,
         "text": "Learn about packet tracer",
         "completed": false,
-        "dueDate": "2024-07-29",
+        "dueDate": "29-07-2024",
         "category": "Leisure"
       },
       {
         "id": 2,
         "text": "Build a project with tailwind",
         "completed": true,
-        "dueDate": "2024-07-13",
+        "dueDate": "13-07-2024",
         "category": "School"
       },
       {
         "id": 3,
         "text": "learn about Kubarnets",
         "completed": false,
-        "dueDate": "2024-07-27",
+        "dueDate": "27-07-2024",
         "category": "Groupwork"
       },
       {
