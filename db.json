@@ -1,0 +1,25 @@
+{
+    "todos": [
+      {
+        "id": 1,
+        "text": "Learn about packet tracer",
+        "completed": false
+      },
+      {
+        "id": 2,
+        "text": "Build a project with tailwind",
+        "completed": true
+      },
+      {
+        "id": 3,
+        "text": "learn about Kubarnets",
+        "completed": false
+      },
+      {
+        "id": 4,
+        "text": "learn react",
+        "completed": false
+      }
+    ]
+  }
+  
