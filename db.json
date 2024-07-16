@@ -3,22 +3,30 @@
       {
         "id": 1,
         "text": "Learn about packet tracer",
-        "completed": false
+        "completed": false,
+        "dueDate": "2024-07-29",
+        "category": "Leisure"
       },
       {
         "id": 2,
         "text": "Build a project with tailwind",
-        "completed": true
+        "completed": true,
+        "dueDate": "2024-07-13",
+        "category": "School"
       },
       {
         "id": 3,
         "text": "learn about Kubarnets",
-        "completed": false
+        "completed": false,
+        "dueDate": "2024-07-27",
+        "category": "Groupwork"
       },
       {
         "id": 4,
         "text": "learn react",
-        "completed": false
+        "completed": false,
+        "dueDate": "null",
+        "category": "School"
       }
     ]
   }

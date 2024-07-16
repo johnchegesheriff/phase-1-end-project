@@ -23,20 +23,22 @@ h1 {
     margin-bottom: 20px;
 }
 
-.todo-form {
+form {
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
     margin-bottom: 20px;
 }
 
-.todo-form input[type="text"] {
+form input[type="text"],
+form input[type="date"] {
     flex: 1;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.todo-form button {
+form button {
     padding: 10px;
     border: none;
     background-color: #28a745;
@@ -45,12 +47,12 @@ h1 {
     cursor: pointer;
 }
 
-.todo-list {
+ul {
     list-style: none;
     padding: 0;
 }
 
-.todo-item {
+li {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,19 +60,39 @@ h1 {
     border-bottom: 1px solid #ddd;
 }
 
-.todo-item span {
-    cursor: pointer;
-}
-
-.todo-item.completed span {
+li.completed span {
     text-decoration: line-through;
 }
 
-.todo-item button {
+li button {
     background-color: #dc3545;
     border: none;
     color: white;
     padding: 5px;
     cursor: pointer;
     border-radius: 4px;
+}
+
+.edit-form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.edit-form input[type="text"],
+.edit-form input[type="date"],
+.edit-form input[type="text"] {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.edit-form button {
+    padding: 5px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
 }
