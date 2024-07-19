@@ -1,33 +1,32 @@
 {
-    "todos": [
-      {
-        "id": 1,
-        "text": "Learn about packet tracer",
-        "completed": false,
-        "dueDate": "29-07-2024",
-        "category": "Leisure"
-      },
-      {
-        "id": 2,
-        "text": "Build a project with tailwind",
-        "completed": true,
-        "dueDate": "13-07-2024",
-        "category": "School"
-      },
-      {
-        "id": 3,
-        "text": "learn about Kubarnets",
-        "completed": false,
-        "dueDate": "27-07-2024",
-        "category": "Groupwork"
-      },
-      {
-        "id": 4,
-        "text": "learn react",
-        "completed": false,
-        "dueDate": "null",
-        "category": "School"
-      }
-    ]
-  }
-  
+  "todos": [
+    {
+      "id": 1,
+      "text": "Learn about packet tracer",
+      "completed": false,
+      "dueDate": "29-07-2024",
+      "category": "Leisure"
+    },
+    {
+      "id": 2,
+      "text": "Build a project with tailwind",
+      "completed": true,
+      "dueDate": "13-07-2024",
+      "category": "School"
+    },
+    {
+      "id": 3,
+      "text": "learn about Kubarnets",
+      "completed": false,
+      "dueDate": "27-07-2024",
+      "category": "Groupwork"
+    },
+    {
+      "id": 4,
+      "text": "learn react",
+      "completed": false,
+      "dueDate": "null",
+      "category": "School"
+    }
+  ]
+}
