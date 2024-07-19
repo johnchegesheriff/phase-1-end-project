@@ -4,20 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To-Do List</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 flex justify-center items-center min-h-screen">
-    <div class="bg-white p-6 rounded-lg shadow-lg w-full max-w-md">
-        <h1 class="text-center text-2xl font-bold mb-6">To-Do List</h1>
-        <form id="todo-form" class="flex flex-wrap gap-2 mb-4">
-            <input type="text" id="todo-input" placeholder="Add a new task" required class="flex-1 p-2 border border-gray-300 rounded">
-            <input type="date" id="todo-date" placeholder="Due date" class="flex-1 p-2 border border-gray-300 rounded">
-            <input type="text" id="todo-category" placeholder="Category" class="flex-1 p-2 border border-gray-300 rounded">
-            <button type="submit" class="p-2 bg-green-500 text-white rounded">Add</button>
+<body class="bg-gray-100 flex justify-center items-center h-screen">
+    <div class="container bg-white p-5 rounded-lg shadow-md w-96 max-w-full">
+        <h1 class="text-center mb-5 text-2xl font-bold">To-Do List</h1>
+        <form id="todo-form" class="flex gap-3 flex-wrap mb-5">
+            <input type="text" id="todo-input" class="flex-1 p-2 border border-gray-300 rounded" placeholder="New Task" required>
+            <input type="date" id="todo-date" class="flex-1 p-2 border border-gray-300 rounded">
+            <input type="text" id="todo-category" class="flex-1 p-2 border border-gray-300 rounded" placeholder="Category">
+            <button type="submit" class="p-2 bg-green-600 text-white rounded">Add</button>
         </form>
         <ul id="todo-list" class="list-none p-0"></ul>
     </div>
-    <script src="/index.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>
+
+
 

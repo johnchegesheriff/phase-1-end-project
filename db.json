@@ -1,32 +1,53 @@
 {
   "todos": [
     {
-      "id": 1,
+      "id": "1",
       "text": "Learn about packet tracer",
       "completed": false,
-      "dueDate": "29-07-2024",
+      "dueDate": "",
       "category": "Leisure"
     },
     {
-      "id": 2,
+      "id": "2",
       "text": "Build a project with tailwind",
-      "completed": true,
-      "dueDate": "13-07-2024",
+      "completed": false,
+      "dueDate": "",
       "category": "School"
     },
     {
-      "id": 3,
+      "id": "3",
       "text": "learn about Kubarnets",
       "completed": false,
-      "dueDate": "27-07-2024",
+      "dueDate": "",
       "category": "Groupwork"
     },
     {
-      "id": 4,
+      "id": "4",
       "text": "learn react",
       "completed": false,
-      "dueDate": "null",
+      "dueDate": "",
       "category": "School"
+    },
+    {
+      "id": "8a64",
+      "text": "learn tailwind",
+      "dueDate": "2024-07-19",
+      "category": null,
+      "completed": false
+    },
+    {
+      "id": "609f",
+      "text": "kuja kilimani",
+      "dueDate": "2024-07-19",
+      "category": null,
+      "completed": false
+    },
+    {
+      "id": "8231",
+      "text": "learn react",
+      "dueDate": "2024-07-19",
+      "category": null,
+      "completed": false
     }
   ]
 }

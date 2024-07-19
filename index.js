@@ -55,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const editButton = document.createElement('button');
             editButton.textContent = 'Edit';
+            editButton.className = 'edit';
             editButton.addEventListener('click', () => {
                 const editForm = document.createElement('form');
                 editForm.className = 'edit-form';
@@ -92,6 +93,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             const deleteButton = document.createElement('button');
             deleteButton.textContent = 'Delete';
+            deleteButton.className = 'delete';
             deleteButton.addEventListener('click', () => {
                 deleteTodo(todo.id);
             });
