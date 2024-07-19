@@ -41,7 +41,7 @@ form input[type="date"] {
 form button {
     padding: 10px;
     border: none;
-    background-color: #28a745; /* Green background */
+    background-color: #28a745; 
     color: white;
     border-radius: 4px;
     cursor: pointer;
@@ -73,12 +73,12 @@ li button {
 }
 
 button.edit {
-    background-color: #f44336; /* Red background */
-    margin-right: 10px; /* Space between buttons */
+    background-color: #f44336; 
+    margin-right: 10px; 
 }
 
 button.delete {
-    background-color: #f44336; /* Red background */
+    background-color: #f44336; 
 }
 
 .edit-form {
