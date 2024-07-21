@@ -81,6 +81,9 @@ button.delete {
     background-color: #f44336; 
 }
 
+button.complete {
+    background-color: #007bff;
+}
 .edit-form {
     display: flex;
     gap: 10px;
