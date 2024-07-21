@@ -6,7 +6,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const todoCategory = document.getElementById('todo-category');
     const todoList = document.getElementById('todo-list');
 
-    // Fetch existing tasks from the API
     fetch(apiUrl)
         .then(response => response.json())
         .then(tasks => {
@@ -27,7 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 category: taskCategory
             };
 
-            // Add new task to the API
             fetch(apiUrl, {
                 method: 'POST',
                 headers: {
@@ -106,7 +104,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 category: editCategory.value.trim()
             };
 
-            // Update task in the API
             fetch(`${apiUrl}/${task.id}`, {
                 method: 'PUT',
                 headers: {
@@ -126,7 +123,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function deleteTask(taskId, li) {
-        // Delete task from the API
         fetch(`${apiUrl}/${taskId}`, {
             method: 'DELETE'
         })
